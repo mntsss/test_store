@@ -17,4 +17,5 @@ services:
         image: ghcr.io/sylius/sylius-nginx:latest
     mailhog:
         # do not use in production!
-        image: mailhog/mailhog:latest
+        image: jcalonso/mailhog:latest # uncomment for Arm architecture
+#        image: mailhog/mailhog:latest # uncomment for Inter architecture
